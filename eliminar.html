@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="php/css/estilosemp.css">
+	<script type="text/javascript" src="js/funciones.js"></script>
+	<title>Eliminacion</title>
+</head>
+<body onLoad="limpiar()">
+	<center>
+		<h1>Eliminar</h1>
+		<p>
+			<form name="form" action="eliminar.php" method="POST">
+				<table>
+					<tr>
+						<td>Numero de Empleado</td>
+						<td><input class="campo texto" type="text" name="txtNumEmp"></td>
+					</tr>
+					<tr>
+						<td><input class="boton" type="button" value="Eliminar" onClick="validar()"></td>
+					</tr>
+				</table>
+				<p>
+					<a class="button mediano naranja" onClick="window.location='empleados.html'"><span>Ir al Menú</span></a>
+
+			</form>
+
+
+	</center>
+	
+</body>
+</html>

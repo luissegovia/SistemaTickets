@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" text "text/css" href="css/estiloslogin.css">
+	<meta charset="UTF-8">
+	<title>Sistema-Dulcerias</title>
+</head>
+<body>
+
+	<form name="myform" action="validateuser.php"  method="post">
+		
+		<h1>Sistema de</h1>
+		<h1>Dulcerias</h1>
+		<br>
+		<img src="imagenes/images.jpg"/>
+		<br><br>
+		<center><label>Seleccionar tipo de usuario:</label></center>
+		<center><select id="tipo_user" name="tipo_user" align="center">
+			<option value="Soporte">Soporte</option>
+			<option value="Admin" selected>Administrador</option>
+		</select><br></center>
+		<br>
+		<input type="text" max-length="20" name= "user" placeholder="Ingrese su usuario" required>
+		<input type="password" max-length="20" name= "pass" placeholder="Ingrese su contraseña" required>
+				<center><button type="submit">Iniciar Sesion</button></center>
+
+				
+	</form>
+</body>
+</html>
